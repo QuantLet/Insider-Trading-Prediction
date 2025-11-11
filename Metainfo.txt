@@ -1,0 +1,22 @@
+Name of QuantLet : Dimensionality Reduction and Visualization
+
+Published in : Not yet published 
+
+Description : 'Performs dimensionality reduction and visualization on 710 features from the insider trading prediction dataset (2014–2019). 
+               The Quantlet implements PCA, t-SNE, UMAP, PCA+t-SNE, PCA+UMAP, and UMAP+Leiden clustering to explore structure in the data 
+               and visualize.'
+
+Keywords : 
+- insider trading
+- dimensionality reduction
+- PCA
+- t-SNE
+- UMAP
+- Leiden clustering
+- visualization
+
+Author : Wolfgang K. Härdle, Yezhou Sha, Yunhui Shi
+
+Submitted : November 11 2025
+
+Example : The Quantlet produces PCA, t-SNE, and UMAP plots showing the 710-feature embeddings of insider and non-insider samples under different sampling ratios, as well as Leiden clustering visualizations illustrating sample separation in 2D space.
