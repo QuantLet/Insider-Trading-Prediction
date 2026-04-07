@@ -5,27 +5,27 @@
 </div>
 
 ```
-Name of QuantLet: Dimensionality Reduction and Visualization
+Name of QuantLet : Insider trading Financial Forensics
 
-Published in: Not yet published
+Published in : Not yet published 
 
-Description: Performs dimensionality reduction and visualization on 710 features from the insider trading prediction dataset (2014–2019).
+Description : 'Performs dimensionality reduction, visualization, and predictive modeling on 710 features from the insider trading prediction dataset (2014–2019). We apply PCA combined with t-SNE to explore the structure of high-dimensional data and visualize embeddings. In addition, we implement Logistic Regression, Random Forest, XGBoost, and Generalized Random Forest (GRF) to evaluate predictive performance under severe class imbalance, and construct GRF-based confidence bands to analyze heterogeneity and estimation uncertainty.'
 
-Keywords: 
+Keywords : 
 - insider trading
 - dimensionality reduction
 - PCA
 - t-SNE
-- UMAP
-- Leiden clustering
-- visualization
+- logit
+- Random Forest
+- XGBoost
+- Generalized Random Forest
+- confidence bands
+- SHAP
 
-Author: Wolfgang K. Härdle, Yezhou Sha, Yunhui Shi
+Author : Yezhou Sha, Wolfgang K. Härdle
 
-Submitted: November 11 2025
-
-Example: The Quantlet produces PCA, t-SNE, and UMAP plots showing the 710-feature embeddings of insider and non-insider samples under different sampling ratios, as well as Leiden clustering visualizations illustrating sample separation in 2D space.
-
+Submitted : April 7 2026
 ```
 <div align="center">
 <img src="https://raw.githubusercontent.com/QuantLet/Insider-Trading-Prediction/main/PCA_UMAP_1_n10_run3.png" alt="Image" />
